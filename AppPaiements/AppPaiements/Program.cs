@@ -1,4 +1,9 @@
-﻿internal class Program
+﻿//Atelier 7 : Gestion des paiements
+//Cecilia Inoa
+
+
+
+internal class Program
 {
     private static void Main(string[] args)
     {
