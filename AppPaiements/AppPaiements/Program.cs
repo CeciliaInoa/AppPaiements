@@ -30,6 +30,16 @@ internal class Program
             carte3.AfficherDetails();
             Console.WriteLine();
 
+            //Création deux instances de la classe PayPal
+            Console.WriteLine("Instances de la classe PayPal avec des paiements faits récemment");
+            Console.WriteLine();
+            Paypal achat1 = new Paypal(15, "Netflix", "pilar.inoa@hotmail.com");
+            Paypal achat2 = new Paypal(12, "Disney Plus", "pilar.inoa@hotmail.com");
+
+            //Affichage des détails des objets PayPal
+            achat1.AfficherDetails();
+            achat2.AfficherDetails();
+            Console.WriteLine();
         }
     }
 }
