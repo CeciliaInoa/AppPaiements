@@ -1,6 +1,6 @@
 ﻿//Atelier 7 : Gestion des paiements
 //Cecilia Inoa
-//Création de la class Paiement
+//Création de la classe Paiement
 
 
 using System;
