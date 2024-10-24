@@ -21,7 +21,7 @@ namespace AppPaiements
         }
         public override void AfficherDetails()
         {
-            Console.WriteLine($"Montant: {Montant}, description : {Description}, numéro_carte: {NumeroCarte}");
+            Console.WriteLine($"Montant: {Montant} $ CA, description : {Description}, numéro_carte: {NumeroCarte}");
 
         }
     }

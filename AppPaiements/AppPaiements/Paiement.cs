@@ -2,7 +2,6 @@
 //Cecilia Inoa
 //Création de la classe Paiement
 
-
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -9,14 +9,14 @@ namespace AppPaiements
     internal class Utilisateur 
     {
         public string Nom { get; set; }
-        public List<Paiement> paiements { get; set; }
+        public List<Paiement> Paiements { get; set; }
         public Utilisateur(string nom) 
         {
             Nom = nom;
-            paiements= new List<Paiement>();
+            Paiements= new List<Paiement>();
         }
         
-        public void AfficherDetails()
+        public void Afficherinfos()
         {
             Console.WriteLine($"Nom: {Nom}");
 
@@ -24,7 +24,7 @@ namespace AppPaiements
         public void AjouterPaiement(Paiement paiement)
         {
            
-                paiements.Add(paiement); }
+             Paiements.Add(paiement); }
     }
 }
 

@@ -16,7 +16,7 @@ namespace AppPaiements
         }
         public override void AfficherDetails()
         {
-            Console.WriteLine($"Montant: {Montant}, description : {Description}, email: {Courriel}");
+            Console.WriteLine($"Montant: {Montant} $ CA, description : {Description}, email: {Courriel}");
 
         }
     }
